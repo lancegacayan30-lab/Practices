@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout << "SSSSS                                                                                        SSSSS"<< endl;
+    cout << "S                                                                                              S"<< endl;
+    cout << "S SSS                                                                                          S"<< endl;
+    cout << "S  SS                                                                                          S"<< endl;
+    cout << "SSSSS                                                                                        SSSSS" << endl;
+   cout<<""<<endl;   
+    cout << "                                     GACAYAN, SIEGFRED LANCE                                       " << endl;
+    cout << "                                        VILLARIN, RAVEN                                            " << endl;
+       cout<<"                                           ICT 11-7      "<<endl;
+    
+    cout << "RRRRR                                                                                        RRRRR" << endl;
+    cout << "R                                                                                              R"<< endl;
+    cout << "RRRRR                                                                                          R" << endl;
+    cout << "    R                                                                                          R"<< endl;
+    cout << "RRRRR                                                                                           "<< endl;
+       
+   
+   
+   
+   
+   
+                         
+    return 0;
+}
