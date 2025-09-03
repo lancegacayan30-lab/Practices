@@ -1,0 +1,32 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+using namespace std;
+
+int main() {
+    string name;
+    double score, items, average;
+
+    cout << "2nd Quarter Coding" << endl;
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "Enter score: ";
+    cin >> score;
+    cout << "Enter total items: ";
+    cin >> items;
+
+    average = (score / items) * 50 + 50;
+
+    cout << fixed << setprecision(2);
+    cout << "" << endl;
+    
+    if (average >= 75) {
+        cout << "Congratulations, " << name << "!" << endl;
+    } else {
+        cout << "Sorry, " << name << "." << endl;
+    }
+    cout << "Your Average is: " << average << endl;
+    cout << "" << endl;
+
+    return 0;
+}
