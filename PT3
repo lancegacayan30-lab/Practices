@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string name,section;
+    cout << "COMPROG CODING 1" << endl;
+    cout << "Enter your name:"; 
+    getline(cin, name);
+    
+    cout << "Enter your section:";
+    getline(cin, section);
+    
+    
+    cout << "  RESULT       " << endl;
+    cout << " Welcome to COMPROG " << name << endl;
+    cout << " and your section is " <<  section << endl;
+    cout << endl;
+    
+    cout << "                   Coded By:" << endl;
+    cout << "                   Gacayan" << endl;
+    cout << "                   Villarin" << endl;
+    return 0;
+}    
