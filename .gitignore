@@ -1,1 +1,42 @@
+#include<iostream>
+using namespace std;
 
+int main() {
+    double num1, num2, num3, sum, difference, product, quotient;
+
+    cout << "Arithmetic operation " << endl;
+    cout << endl;
+
+    cout << "Enter 1st number: ";
+    cin >> num1;
+
+    cout << "Enter 2nd number: ";
+    cin >> num2;
+
+    cout << "Enter 3rd number: ";
+    cin >> num3;
+
+    // Check for division by zero
+    if (num2 == 0 || num3 == 0) {
+        cout << "Error: Division by zero is not allowed." << endl;
+        return 1;
+    }
+
+    sum = num1 + num2 + num3;
+    difference = num1 - num2 - num3;
+    product = num1 * num2 * num3;
+    quotient = num1 / num2 / num3;
+ cout << endl;
+    cout << "Arithmetic result " << endl;
+    cout << "Sum: " << sum << endl;
+    cout << "Difference: " << difference << endl;
+    cout << "Product: " << product << endl;
+    cout << "Quotient: " << quotient << endl;
+    cout << endl;
+
+    cout << "              coded by: " << endl;
+    cout << "              Gacayan " << endl;
+    cout << "              Villarin" << endl;
+
+    return 0;
+}
